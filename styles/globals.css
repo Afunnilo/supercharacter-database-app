@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito:wght@200;300;400;600;700&family=Special+Elite&display=swap');
+
+*{
+  font-family: 'Special Elite', cursive;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+.container{
+  max-width: 800px;
+ margin: 0 auto;
+  overflow:hidden;
+ 
+  background: #F0F8FF;
+}
+a{
+  color: #333;
+  text-decoration: none;
+}
+nav{
+ margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ddd;
+}
+.links{
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+nav a {
+  margin-left: 12px;
+}
+.links a{
+  border: 1px solid transparent;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #777;
+  color:#f2f2f2
+}
+.links a:hover{
+  color:black;
+}
+.logo{
+  margin-top: 0;
+}
+.logo > img{
+ width: 400px;
+}
+.nav-title{
+  font-family: 'Special Elite', cursive;
+  padding:1em 2em;
+}
+
+.not-found{
+  text-align: center;
+  margin: 1em 2em;
+}
+.not-found >h1{
+  margin-bottom: 1em;
+}
+.not-found>img{
+  margin-bottom: 1em;
+}
+.not-found >h2{
+  margin-bottom: 1em;
+}
+.not-found a {
+  color: white;
+  border: 1px solid plum;
+  padding: 8px 4px;
+  background-color: rgb(214, 10, 136);
+  border-radius: 10px;
+}
+.not-found a:hover{
+  background-color: plum;
+}
