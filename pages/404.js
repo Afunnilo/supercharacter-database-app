@@ -15,8 +15,9 @@ const NotFound = () => {
             <h2>That page can not be found</h2>
             
             <p>Go back to the <Link href='/'> 
-                 <a>Homepage </a>
+                 <a>Homepage  <img className='notfoundimg' src="https://cdn11.bigcommerce.com/s-fg272t4iw0/images/stencil/1280x1280/products/773/1026/C-10780__58899.1557813563.jpg?c=2" alt="" /> </a>
                  </Link>
+                
                  </p>
         </div>
      );

@@ -64,6 +64,7 @@ nav a {
 }
 .not-found>img{
   margin-bottom: 1em;
+  width: 300px;
 }
 .not-found >h2{
   margin-bottom: 1em;
@@ -71,10 +72,47 @@ nav a {
 .not-found a {
   color: white;
   border: 1px solid plum;
-  padding: 8px 4px;
-  background-color: rgb(214, 10, 136);
+  padding: 12px 8px;
+  background-color: black;
   border-radius: 10px;
 }
 .not-found a:hover{
   background-color: plum;
+}
+.notfoundimg{
+  width:20px;
+  padding-top:2px
+}
+.text-box{
+  padding: 10px 10px;
+}
+.submitbtn{
+   padding: 10px 10px;
+   background: #4682B4 ;
+   border: 1px solid #4682B4;
+
+}
+form{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.featured{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.card{
+  margin-top: 20px;
+  width: 380px;
+  height: 200px;
+  border: 1px solid grey;
+  display:flex;
+}
+.card-image{
+  width: 180px;
+  height: 200px;
 }

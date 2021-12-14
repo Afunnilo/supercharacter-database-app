@@ -5,9 +5,9 @@ function Search() {
         <div className="">
             <form action="" className="form-div">
 
-                <div className="">
-                    <input className="input" type="text" placeholder = "Search Image Term..." className="" />
-                    <button type="submit" className="submit">
+                <div className="search-div">
+                    <input className="text-box" type="text" placeholder = "Search character..."/>
+                    <button type="submit" className="submitbtn">
                         Search
                     </button>
                 </div>
